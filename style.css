@@ -1,0 +1,804 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#preloader{
+    background: rgb(31, 29, 29) url(images/loader-3.gif) no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+span {
+    color: red;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 247, 178);
+    position: sticky;
+    top: 0;
+
+}
+
+
+.active{
+    width: 130px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: rgb(255, 0, 111);
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    letter-spacing: 1px;
+}
+.btn-1{
+    width: 130px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: blue;
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    cursor: pointer;
+}
+.btn-yt{
+    width: 133px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: rgb(80, 9, 57);
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-yt:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    background-color: rgb(255, 0, 111);
+    transition: 0.5s;
+}
+
+
+.btn-2{
+    width: 135px;
+    height: 40px;
+    border-radius: 18px;
+    background-color:blue;
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+.btn-2:hover{
+    background-color: rgb(255, 0, 111);
+    transition: 0.5s;
+}
+.btn-3{
+    width: 130px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: blue;
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background-color: rgb(255, 0, 111);
+    transition: 0.5s;
+}
+
+.abu-h {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .9em 0em 0em 0em;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    float: left;
+}
+.head-image{
+    height: 100px;
+    margin-left: 30px;
+    float: left;
+}
+.abu{
+    color: rgb(247, 9, 108);
+}
+nav ul {
+    margin-right: 2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1.2em ;
+    margin-right: 0.8em;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(30, 30, 121);
+    font-weight: bold;
+    letter-spacing: 1px;
+   
+}
+
+nav ul li a:hover {
+    color: rgb(249, 4, 45);
+    transition: 0.2s;
+}
+
+/*start header main section*/
+
+.container{
+    width: 100%;
+    display: flex;
+    background-color: rgb(119, 213, 230);
+}
+
+.bio {
+    width: 60%;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.bio h2 {
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 0, 157);
+    font-weight: bolder;
+}
+.ah{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 0, 111);
+    font-weight: bolder;
+}
+.bio p {
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(147, 20, 60);
+}
+
+.seacrh-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5em 0em;
+    
+}
+
+.seacrh-container form { 
+    height: 40px;
+    display: flex;
+    
+}
+
+form input {
+    width: 500px;
+    position: relative;
+    border: none;
+    padding: 0 1em;
+    border-radius: 35px;
+    height: 60px;
+    font-weight: bolder;
+    font-size: larger;
+    outline: none;
+
+}
+
+form button {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 42%;
+    border: none;
+    background-color:  rgb(220, 24, 145);
+    border-radius: 0px 35px 35px 0px;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+    
+}
+
+form button:hover {
+    background-color: rgb(199, 24, 115);
+}
+.sub button{
+    width: 250px;
+    height: 55px;
+    font-size: x-large;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(168, 19, 48);
+     outline: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 3em;
+}
+.sub h1{
+    color: rgb(14, 29, 233);
+    font-weight: bold;
+   margin-left: 2.5em;
+    margin-bottom: 0.5em;
+}
+.sub h1:hover{
+    color: rgb(20, 51, 51);
+    
+}
+.sub h1 span{
+    color: rgb(78, 15, 50);
+}
+.sub h1 span:hover{
+    color: rgb(14, 29, 233);
+}
+.sub button:hover{
+    background-color: rgb(72, 16, 77) ;
+       transition: 0.5s;
+}
+.sub a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sub .fa-youtube{
+    font-size: 4em;
+    color: red;
+}
+.photo {
+    width: 35%;
+    background-color: rgb(233, 67, 158);
+    margin: 3em;
+    text-align: center;
+    border-radius:  0px 150px ;
+    box-shadow: 0px 4px 6px rgb(250, 6, 6);
+}
+
+.photo img {
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: width 0.3s ease-in-out;
+}
+
+.photo img:hover {
+    width: 105%;
+}
+
+/*start about section*/
+
+.about {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin: 5em 0;
+}
+
+.picture {
+    width: 50%;
+    text-align: center;
+}
+.d {
+    padding-top: 0.5em;
+    line-height: 1.2;
+    height: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    font-size: xx-large;
+    
+}
+
+.hire-me{
+    width: 500px;
+    height: 90px;
+    background-color:  rgb(76, 43, 226);
+    border: none;
+    color: rgb(254, 253, 253);
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: width 0.5s;
+    cursor: pointer;
+}
+
+.arrow{
+    width: 120px;
+    display: none;
+}
+.hire-me:hover .arrow{
+    display: block;
+}
+
+.hire-me:hover{
+    background-color: rgb(43, 110, 226);
+    transition: 0.5s;
+    justify-content: space-around;
+    display: flex;
+    width: 510px;
+    align-items: center;
+
+}
+.hr-me{
+    text-decoration: none;
+}
+.picture img {
+    width: 420px;
+    height: auto;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 20px  gray;
+    transition: width 0.2s ease-in-out;
+}
+
+.picture img:hover {
+    width: 450px;
+}
+
+
+hr {
+    width: 150px;
+}
+
+.deteils {
+    width: 40%;
+    height: 360px;
+    box-sizing: border-box;
+    margin: 0 3em;
+}
+
+.deteils h3 {
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+
+
+/*start card section*/
+
+.card-container {
+    width: 100%;
+    display: flex;
+}
+
+.service {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.service-hr {
+    margin: 0 auto;
+}
+
+.card1 {
+    width: 25%;
+    background-color: rgb(191, 212, 244);
+    margin: 0 auto;
+    margin-top: 3em;
+    text-align: center;
+    border-radius: 30px;
+    transition: .2s ease-in-out;
+}
+
+.card1:hover {
+    background-color: rgb(240, 223, 197);
+    box-shadow: 3px 3px 16px gray;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.p {
+    margin: 1em 2.5em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#js, #power {
+    width: 45px;
+    margin-top: 12px;
+}
+
+/*my work section*/
+
+.work {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.work-hr {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.work-container {
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    margin: 2em auto;
+    background-color: rgb(174, 246, 178);
+}
+
+.perent {
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 1.2em 0.4rem;
+    box-shadow: 3px 6px 3px #d8165d;
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.perent:hover .child {
+    transform: scale(1.2);
+}
+
+.bg1 {
+    background-image: url(./images/image1.png);
+    
+   
+}
+
+.bg2 {
+    background-image: url(./images/image2.png);
+}
+
+.bg3 {
+    background-image: url(./images/image3.png);
+}
+
+.bg4 {
+    background-image: url(./images/image4.png);
+}
+
+.bg5 {
+    background-image: url(./images/image5.png);
+}
+
+.bg6 {
+    background-image: url(./images/image6.png);
+}
+
+
+/*my skill section*/
+
+.skill {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.skill-hr {
+    width: 110px;
+    margin: 0 auto;
+}
+
+.skill-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 1em;
+}
+
+.skill-perent {
+    width: 40%;
+    height: auto;
+    margin: 3em auto;
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    text-align: right;
+    padding-top: 1em;
+}
+
+.proggres-ber {
+    width: 100%;
+    height: auto;
+    margin: 2.5em 0;
+    position: relative;
+}
+
+.proggres-ber1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(17, 197, 77);
+}
+
+.proggres-ber1::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(54, 8, 28);
+}
+
+
+.proggres-ber2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(17, 197, 77);
+
+}
+
+.proggres-ber2::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(54, 8, 28);
+
+}
+
+.proggres-ber3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(17, 197, 77);
+
+}
+
+.proggres-ber3::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(54, 8, 28);
+
+}
+
+.proggres-ber4::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(17, 197, 77);
+
+}
+
+.proggres-ber4::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 15px;
+    border-radius: 1500px;
+    background-color:  rgb(54, 8, 28);
+
+}
+
+/*my skill section*/
+
+.footer-container{
+  
+    height: 250px;
+    max-width: 100%;
+    background-color: rgb(71, 11, 11);
+    width: auto;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    color: white;
+}
+
+.ft {
+    margin: 2em 2em;
+   
+}
+
+.footer-title-1 {
+    width: 30%;
+    padding-left: 90px;
+    font-size: x-large;
+    letter-spacing: 12px;
+    color: rgb(6, 255, 155);
+    font-weight: bolder;
+    margin-top: 12%;
+}
+.foot-p{
+     width: 90%;
+    padding-left: 90px;
+    font-size: large;
+   margin-top: 10px;
+   letter-spacing: 3px;
+   color: rgb(19, 236, 252);
+}
+.icon-image{
+    width: 150px;
+    height: 160px;
+   margin-left: 118px;
+}
+.social-icon{
+    width: 80%;
+  margin-top: 10px;
+    float: right;
+
+  
+}
+.icon{
+    list-style: none;
+    display: flex;
+   
+}
+
+
+.social-icon i {
+    margin-left: 0.5em;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.sub-footer {
+    display: flex;
+    margin-left: 8em;
+    font-size: large;
+}
+
+.footer-title {
+    font-family: sans-serif;
+    margin-bottom: 0.7em;
+}
+.fa-youtube{
+    color: white;
+}
+.fa-facebook{
+    color: white;
+}
+.fa-github{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+.fa-linkedin{
+    color: white;
+}
+.fa-youtube:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-linkedin:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-instagram:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-github:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-facebook:hover{
+    color: rgb(13, 255, 158);
+}
+
+
+.copyright {
+    text-align: center;
+    overflow: hidden;
+    margin: 1em 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 150);
+    width: 100%;
+    height: 40px;
+    padding-top: 6px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.copy{
+    color: rgb(0, 255, 191);
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+
+
+.list-11{
+    list-style: none;
+    width: 200px;
+    
+}
+.list-22{
+    list-style: none;
+    width: 200px;
+}
+
+.li-1{
+    font-size: x-large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+}
+.li-6{
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-bottom: 9px;
+}
+.li-2{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+
+}
+.li-2:hover{
+    color: red;
+    font-weight: bolder;
+ }
+.li-3:hover{
+    color: red;
+    font-weight: bolder;
+ }
+
+.li-5:hover{
+    color: red;
+    font-weight: bolder;
+ }
+
+.li-3{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+}
+
+.li-5{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+    
+}
+.li-7{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+}
+.li-8{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+}
+
+.second-details ol a{
+    text-decoration: none;
+    color: white;
+}

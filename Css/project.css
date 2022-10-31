@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#preloader{
+    background: rgb(31, 29, 29) url(images/loader-3.gif) no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+ /* head section starts here */
+ .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 247, 178);
+    position: sticky;
+    top: 0;
+}
+
+.active{
+    width: 130px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: blue;
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.active:hover{
+    background-color: rgb(255, 0, 111);
+    transition: 0.5s;
+}
+.btn-1{
+    width: 130px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: blue;
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    cursor: pointer;
+}
+.btn-yt{
+    width: 133px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: rgb(80, 9, 57);
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-yt:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    background-color: rgb(255, 0, 111);
+    transition: 0.5s;
+}
+
+.btn-2{
+    width: 135px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: rgb(255, 0, 111);
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+   letter-spacing: 1px;
+}
+
+.btn-3{
+    width: 130px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: blue;
+    color: rgb(246, 244, 252);
+    font-weight: bold;
+    font-size:large ;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background-color: rgb(255, 0, 111);
+    transition: 0.5s;
+}
+
+.abu-h {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .9em 0em 0em 0em;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    float: left;
+}
+.head-image{
+    height: 100px;
+    margin-left: 30px;
+    float: left;
+}
+.abu{
+    color: rgb(247, 9, 108);
+}
+nav ul {
+    margin-right: 2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1.2em ;
+    margin-right: 0.8em;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(30, 30, 121);
+    font-weight: bold;
+    letter-spacing: 1px;
+   
+}
+
+nav ul li a:hover {
+    color: rgb(249, 4, 45);
+    transition: 0.2s;
+}
+
+/* header section ends here */
+
+span {
+    color: red;
+}
+h1{
+    color: rgb(155, 9, 9);
+
+}
+.PPPT {
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(6, 58, 47);
+    font-size: 2.2em;
+    background-color: coral;
+}
+.PPPT:hover{
+    color: rgb(60, 9, 155);
+}
+.container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(32, 13, 88);
+}
+
+.sub-container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+h3{
+    color: white;
+    margin-bottom: .3em;
+}
+.card {
+    width: 410px;
+    height: 520px;
+    background-color: rgb(93, 16, 80);
+    margin: 2em;
+    text-align: center;
+    color: rgb(19, 238, 169);
+    border-radius: 0px 0px 100px 0px;
+   line-height: 1.5em;
+   font-size: large;
+    box-shadow: 3px 4px red;
+}
+.card:hover{
+    box-shadow: 4px 4px rgb(0, 255, 136);
+}
+.card img {
+    width: 100%;
+    height: 300px;  
+    margin: 0 auto;  
+    text-align: center;
+    background-size: cover;
+}
+
+
+h3 {
+    margin-top: .3em;
+    font-weight: bold;
+}
+
+p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.4em;
+    border-radius: 12px;
+    width: 140px;
+    height: 45px;
+    background-color: gold;
+    outline: none;
+    border: none;
+    font-weight: bold;
+   
+}
+.btn-g{
+    margin-right: 1.8em;    
+}
+.btn-c{
+    margin-right: 1.8em;    
+}
+.btn-y{
+    margin-right: 1.8em;    
+}
+button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+
+form button:hover {
+    background-color: chartreuse;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+/* footer design starts here */
+
+.footer-container{
+  
+    height: 250px;
+    max-width: 100%;
+    background-color: rgb(71, 11, 11);
+    width: auto;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    color: white;
+}
+
+.ft {
+    margin: 2em 2em;
+   
+}
+
+.footer-title-1 {
+    width: 30%;
+    padding-left: 90px;
+    font-size: x-large;
+    letter-spacing: 12px;
+    color: rgb(6, 255, 155);
+    font-weight: bolder;
+    margin-top: 12%;
+}
+.foot-p{
+     width: 90%;
+    padding-left: 70px;
+    font-size: large;
+   margin-top: 10px;
+   letter-spacing: 3px;
+   color: rgb(19, 236, 252);
+}
+.icon-image{
+    width: 150px;
+    height: 160px;
+   margin-left: 119px;
+}
+.social-icon{
+    width: 80%;
+  margin-top: 10px;
+    float: right;
+ 
+
+  
+}
+.icon{
+    list-style: none;
+    display: flex;
+   
+}
+
+
+.social-icon i {
+    margin-left: 0.5em;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.sub-footer {
+    display: flex;
+    margin-left: 8em;
+    font-size: large;
+}
+
+.footer-title {
+    font-family: sans-serif;
+    margin-bottom: 0.7em;
+}
+.fa-youtube{
+    color: white;
+}
+.fa-youtube:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-facebook{
+    color: white;
+}
+.fa-github{
+    color: white;
+}
+.fa-instagram{
+    color: white;
+}
+.fa-linkedin{
+    color: white;
+}
+.fa-linkedin:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-instagram:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-github:hover{
+    color: rgb(13, 255, 158);
+}
+.fa-facebook:hover{
+    color: rgb(13, 255, 158);
+}
+
+
+.copyright {
+    text-align: center;
+    overflow: hidden;
+    margin: 1em 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 150);
+    width: 100%;
+    height: 40px;
+    padding-top: 6px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.copy{
+    color: rgb(0, 255, 191);
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+
+.list-11{
+    list-style: none;
+    width: 200px;
+    
+}
+.list-22{
+    list-style: none;
+    width: 200px;
+}
+
+.li-1{
+    font-size: x-large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+}
+.li-6{
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-bottom: 9px;
+}
+.li-2{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+
+}
+.li-2:hover{
+    color: red;
+    font-weight: bolder;
+ }
+.li-3:hover{
+    color: red;
+    font-weight: bolder;
+ }
+.li-4:hover{
+    color: red;
+    font-weight: bolder;
+ }
+.li-5:hover{
+    color: red;
+    font-weight: bolder;
+ }
+
+.li-3{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+}
+.li-4{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+}
+.li-5{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+    
+}
+.li-7{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+}
+.li-8{
+     padding-bottom: 5px;
+     letter-spacing: 2px;
+}
+
+.second-details ol a{
+    text-decoration: none;
+    color: white;
+}
+
