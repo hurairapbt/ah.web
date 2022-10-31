@@ -173,7 +173,7 @@ marquee{
 }
 .col-2{
     position: relative;
-    margin-left: 55em;
+    margin-left: 65em;
    
 
 }
@@ -318,7 +318,7 @@ marquee{
 .icon-image{
     width: 150px;
     height: 160px;
-   margin-left: 118px;
+   margin-left: 130px;
 }
 .social-icon{
     width: 80%;
@@ -335,7 +335,7 @@ marquee{
 
 
 .social-icon i {
-    margin-left: 0.5em;
+    margin-left: 3em;
     border-radius: 50%;
     font-size: 2rem;
 }
